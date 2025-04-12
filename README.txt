@@ -1,5 +1,6 @@
 Following the tut from:
 https://www.youtube.com/watch?v=87SH2Cn0s9A
+Current progress: 38:19 minutes
 
 C is the mother of all languages, sits right above machine and assembly
 You need an IDE (Vim, VSCode, etc.) and a GCC Compiler
@@ -37,7 +38,7 @@ mc() {
     echo "Usage: mc <name>"
     return 1
   fi
-  cd .. && mkdir "$1" && cd "$1" && touch "$1.c"
+  cd ~/code/c/c-tutorials && mkdir "$1" && cd "$1" && touch "$1.c"
 }
    - Click 'esc' key
    - Type :wq to save and exit 
