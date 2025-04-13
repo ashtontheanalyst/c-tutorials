@@ -1,6 +1,6 @@
 Following the tut from:
 https://www.youtube.com/watch?v=87SH2Cn0s9A
-Current progress: 38:19 minutes
+Current progress: 1:02:47 minutes, start of if statements
 
 C is the mother of all languages, sits right above machine and assembly
 You need an IDE (Vim, VSCode, etc.) and a GCC Compiler

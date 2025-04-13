@@ -1,5 +1,7 @@
 // Basic mathematic operations
 // Towards the bottom I show the use of the math.h library
+// Example of finding the circ and area of a cirle
+// Hypotenous of a triangle
 
 #include <stdio.h>
 #include <math.h>
@@ -52,7 +54,7 @@ int main() {
     y /= 7;
     printf("Now x and y are: %d and %d\n", x, y);
 
-    // Using the math.h library to do more math
+    // Using the math.h library to do more math--------------------------------------------------
     double A = sqrt(9); // Square root
     double B = pow(2, 4); // This is 2 to the power of 4
     int C = round(3.14); // Round
@@ -63,6 +65,36 @@ int main() {
     double H = sin(45); // Trig
     double I = cos(45);
     double J = tan(45);
+
+    // Find the cir and area of a cirle with user input------------------------------------------
+    const double PI = 3.14159;
+    double radius;
+    double circumference;
+    double area;
+
+    printf("\nEnter the radius of a circle: ");
+    scanf("%lf", &radius);
+
+    circumference = 2 * PI * radius;
+    printf("Circumference: %lf\n", circumference);
+
+    area = PI * radius * radius;
+    printf("Area: %lf\n", area);
+
+    // Hypotenaous of a triangle-----------------------------------------------------------------
+    double A1;
+    double B1;
+    double C1;
+
+    printf("\nEnter side A: ");
+    scanf("%lf", &A1);
+    printf("Enter side B: ");
+    scanf("%lf", &B1);
+    
+    C1 = sqrt(A1*A1 + B1*B1);
+    printf("Hypotenaous: %.3lf\n", C1);
+
+    // To compile this code you have to add the flag -lm
 
     return 0;
 }
