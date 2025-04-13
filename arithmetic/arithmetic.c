@@ -1,6 +1,8 @@
 // Basic mathematic operations
+// Towards the bottom I show the use of the math.h library
 
 #include <stdio.h>
+#include <math.h>
 
 int main() {
     int x = 5;
@@ -49,6 +51,18 @@ int main() {
     x *= 10;
     y /= 7;
     printf("Now x and y are: %d and %d\n", x, y);
+
+    // Using the math.h library to do more math
+    double A = sqrt(9); // Square root
+    double B = pow(2, 4); // This is 2 to the power of 4
+    int C = round(3.14); // Round
+    int D = ceil(3.14); // Round up
+    int E = floor(3.99); // Round down
+    double F = fabs(-100); // Abs value
+    double G = log(3); // Find the log of a number
+    double H = sin(45); // Trig
+    double I = cos(45);
+    double J = tan(45);
 
     return 0;
 }
