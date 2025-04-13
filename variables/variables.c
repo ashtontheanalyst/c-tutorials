@@ -1,4 +1,5 @@
 // vairables are allocated space in memory to store values
+// constants are variables that we don't want to be changed (good practice to ALL CAPS)
 
 #include <stdio.h>
 
@@ -16,6 +17,12 @@ int main() {
     printf("Are you %d years old?\n", y); // %d is for an int
     printf("Hello %s\n", name); // %s is for string (really a char array)
     printf("A(n) %C is a great grade!\n", grade); // %C for a char
+
+    // constants need to be declared:
+    const float PI = 3.14159;
+    printf("The value of pi is: %.5f\n", PI);
+
+    // PI = 4.14159; This won't work since it's a constant
 
     return 0;
 }
