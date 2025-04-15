@@ -1,7 +1,7 @@
-Following the tut from:
+Following the tutorial from:
 https://www.youtube.com/watch?v=87SH2Cn0s9A
-Current progress: 1:46:46, start of string functions with string.h
-ISSUE: I have been using gcc in the terminal to compile but that isn't working with string.h
+   - Didn't complete the whole thing, just enough to feel elementary proficient
+   - Taking this knowledge into C++ for projects
 
 C is the mother of all languages, sits right above machine and assembly
 You need an IDE (Vim, VSCode, etc.) and a GCC Compiler
